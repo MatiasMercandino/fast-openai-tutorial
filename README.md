@@ -1,4 +1,4 @@
-# DataSensei: AI-Powered Educational Chatbot
+# DataSensei
 ## Descripción del Proyecto
 Este repositorio contiene DataSensei , un chatbot educativo impulsado por IA diseñado para generar evaluaciones personalizadas que ayuden a consolidar y mejorar el conocimiento adquirido durante el programa de Magister en Data Science de la Universidad del Desarrollo (UDD). La aplicación utiliza los modelos de OpenAI para generar preguntas basadas en varios temas cubiertos en el programa, como Machine Learning, Network Science y Statistics for Data Science. El backend está construido utilizando FastAPI e interactúa con la API de OpenAI, mientras que el frontend es una aplicación Streamlit que proporciona una interfaz de usuario interactiva. Las aplicaciones están diseñadas para su implementación en contenedores utilizando la plataforma Modal.
 
@@ -11,7 +11,7 @@ Toda la aplicación está contenedorizada para su implementación mediante la pl
 
 Este proyecto de demostración sirve como ejemplo práctico de creación e implementación de un producto de datos como parte del proyecto final del programa. Ilustra la aplicación de los conceptos y tecnologías aprendidos a lo largo del curso en un escenario del mundo real.
 
-# Empezando
+## Empezando
 Antes de comenzar a ejecutar este proyecto, hay algunos requisitos previos que deberá tener en cuenta:
 ✅ Clave API de OpenAI: Para interactuar con la API de OpenAI, necesitarás una clave API. Puedes obtenerla creando una cuenta en el sitio web de OpenAI y siguiendo sus instrucciones para generar una clave API. 
 ✅ Cuenta Modal: la aplicación está en contenedores para su implementación mediante la plataforma Modal. Visite el sitio web de Modal para registrarse y obtener una cuenta si aún no tiene una.
@@ -19,15 +19,26 @@ Antes de comenzar a ejecutar este proyecto, hay algunos requisitos previos que d
 
 Recuerda siempre revisar la documentación de OpenAI, Modal y Streamlit en caso de que se haya modificado la manera de comunicarse con cada una. 
 
-# Instalación
-Para configurar el proyecto localmente, siga estos pasos:
-Crear un nuevo entorno venv: python -m venv .venv
-Activar el entorno: .venv\Scripts\activate 
-Instalar las dependencias necesarias: pip install -r requirements.txt
+## Instalación
+Para configurar el proyecto localmente, sigue estos pasos:
 
-# Ejecutando el backend y frontend 
-Para ejecutar el deploy en modal utiliza el siguiente código:
-modal deploy backend/main2.py::app
+1. **Crear un nuevo entorno virtual:**
+   ```bash
+   python -m venv .venv
 
-Para entrar a la interfaz de streamlit utiliza:
-streamlit run st_app.py
+2. **afad**
+   ```bash
+   .venv\Scripts\activate
+   
+3. **raerae**
+   ```bash
+   pip install -r requirements.txt
+
+## Ejecutando el Backend y Frontend
+
+1. **Para ejecutar el deploy en Modal, utiliza el siguiente comando:**
+   ```bash
+   modal deploy backend/main2.py::app
+2. **Para iniciar la interfaz de Streamlit, utiliza:**
+    ```bash
+    streamlit run st_app.py
