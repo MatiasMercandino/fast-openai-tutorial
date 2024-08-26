@@ -13,8 +13,11 @@ Este proyecto de demostración sirve como ejemplo práctico de creación e imple
 
 ## Empezando
 Antes de comenzar a ejecutar este proyecto, hay algunos requisitos previos que deberá tener en cuenta:
+
 ✅ Clave API de OpenAI: Para interactuar con la API de OpenAI, necesitarás una clave API. Puedes obtenerla creando una cuenta en el sitio web de OpenAI y siguiendo sus instrucciones para generar una clave API. 
+
 ✅ Cuenta Modal: la aplicación está en contenedores para su implementación mediante la plataforma Modal. Visite el sitio web de Modal para registrarse y obtener una cuenta si aún no tiene una.
+
 ✅ Cuenta Streamlit (opcional): si bien puedes ejecutar aplicaciones Streamlit localmente sin una cuenta, tener una cuenta Streamlit te permite implementar y compartir tus aplicaciones, lo que puede ser útil para mostrar tu proyecto a otras personas. Si deseas utilizar esta función, regístrate para obtener una cuenta Streamlit.
 
 Recuerda siempre revisar la documentación de OpenAI, Modal y Streamlit en caso de que se haya modificado la manera de comunicarse con cada una. 
