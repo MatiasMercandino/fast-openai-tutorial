@@ -10,3 +10,24 @@ La aplicación, DataSensei , funciona como una herramienta educativa impulsada p
 Toda la aplicación está contenedorizada para su implementación mediante la plataforma Modal, mostrando un ciclo de desarrollo de productos de datos de extremo a extremo, desde la integración del modelo de IA hasta el diseño y la implementación de la interfaz de usuario.
 
 Este proyecto de demostración sirve como ejemplo práctico de creación e implementación de un producto de datos como parte del proyecto final del programa. Ilustra la aplicación de los conceptos y tecnologías aprendidos a lo largo del curso en un escenario del mundo real.
+
+# Empezando
+Antes de comenzar a ejecutar este proyecto, hay algunos requisitos previos que deberá tener en cuenta:
+✅ Clave API de OpenAI: Para interactuar con la API de OpenAI, necesitarás una clave API. Puedes obtenerla creando una cuenta en el sitio web de OpenAI y siguiendo sus instrucciones para generar una clave API. 
+✅ Cuenta Modal: la aplicación está en contenedores para su implementación mediante la plataforma Modal. Visite el sitio web de Modal para registrarse y obtener una cuenta si aún no tiene una.
+✅ Cuenta Streamlit (opcional): si bien puedes ejecutar aplicaciones Streamlit localmente sin una cuenta, tener una cuenta Streamlit te permite implementar y compartir tus aplicaciones, lo que puede ser útil para mostrar tu proyecto a otras personas. Si deseas utilizar esta función, regístrate para obtener una cuenta Streamlit.
+
+Recuerda siempre revisar la documentación de OpenAI, Modal y Streamlit en caso de que se haya modificado la manera de comunicarse con cada una. 
+
+# Instalación
+Para configurar el proyecto localmente, siga estos pasos:
+Crear un nuevo entorno venv: python -m venv .venv
+Activar el entorno: .venv\Scripts\activate 
+Instalar las dependencias necesarias: pip install -r requirements.txt
+
+# Ejecutando el backend y frontend 
+Para ejecutar el deploy en modal utiliza el siguiente código:
+modal deploy backend/main2.py::app
+
+Para entrar a la interfaz de streamlit utiliza:
+streamlit run st_app.py
