@@ -1,22 +1,12 @@
-# Data Sensei
+# DataSensei: AI-Powered Educational Chatbot
+## Descripción del Proyecto
+Este repositorio contiene DataSensei , un chatbot educativo impulsado por IA diseñado para generar evaluaciones personalizadas que ayuden a consolidar y mejorar el conocimiento adquirido durante el programa de Magister en Data Science de la Universidad del Desarrollo (UDD). La aplicación utiliza los modelos de OpenAI para generar preguntas basadas en varios temas cubiertos en el programa, como Machine Learning, Network Science y Statistics for Data Science. El backend está construido utilizando FastAPI e interactúa con la API de OpenAI, mientras que el frontend es una aplicación Streamlit que proporciona una interfaz de usuario interactiva. Las aplicaciones están diseñadas para su implementación en contenedores utilizando la plataforma Modal.
 
-## 1. Descripción del Proyecto
-Este proyecto se enfoca en el desarrollo de un chatbot educativo diseñado para generar evaluaciones personalizadas, facilitando la consolidación y mejora de los conocimientos adquiridos en el Magíster en Data Science de la Universidad del Desarrollo (UDD). El chatbot genera preguntas basadas en las asignaturas cursadas durante el programa, como Machine Learning, Ciencia de Redes y Estadística para Data Science, entre otras. Las preguntas están clasificadas en tres niveles de dificultad: básico, intermedio y avanzado.
+## Notas
+Este repositorio alberga un proyecto de demostración para el proyecto final del Magiter en Data Science de la Universidad del Desarrollo (UDD). El propósito de este proyecto es demostrar la integración de varias tecnologías de vanguardia, incluidas Modal, Streamlit, FastAPI y OpenAI API.
 
-El objetivo principal es ofrecer un método práctico y continuo de autoevaluación que no solo refuerce las competencias técnicas, sino que también mejore las habilidades de comunicación y pensamiento crítico, a través de la generación automática de preguntas y la evaluación de respuestas (feedback).
+La aplicación, DataSensei , funciona como una herramienta educativa impulsada por IA que genera preguntas y comentarios para la autoevaluación en áreas clave de la ciencia de datos. El backend se desarrolló utilizando FastAPI, un marco web moderno, rápido (de alto rendimiento) para crear API con Python. El frontend es una aplicación Streamlit, que proporciona una interfaz intuitiva para que los usuarios interactúen con el chatbot, seleccionen temas y reciban preguntas y comentarios generados por IA.
 
-## 2. Estructura del Proyecto
-La estructura del proyecto está organizada de la siguiente manera:
+Toda la aplicación está contenedorizada para su implementación mediante la plataforma Modal, mostrando un ciclo de desarrollo de productos de datos de extremo a extremo, desde la integración del modelo de IA hasta el diseño y la implementación de la interfaz de usuario.
 
-fast-openai-tutorial/
-├── backend/              # Contiene la lógica principal del chatbot
-│   ├── __init__.py       # Inicialización del módulo
-│   └── main.py           # FastAPI, integración con OpenAI, y despliegue en Modal
-│
-├── .env                  # Variables de entorno (clave de OpenAI)
-├── .gitignore            # Archivos a excluir del control de versiones
-├── README.md             # Documentación principal del proyecto
-├── requirements.txt      # Dependencias del proyecto
-├── st_app.py             # Aplicación Streamlit para la interfaz de usuario
-└── .venv/                # Entorno virtual (no se incluye en el control de versiones)
-
+Este proyecto de demostración sirve como ejemplo práctico de creación e implementación de un producto de datos como parte del proyecto final del programa. Ilustra la aplicación de los conceptos y tecnologías aprendidos a lo largo del curso en un escenario del mundo real.
