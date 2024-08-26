@@ -8,9 +8,8 @@ El objetivo principal es ofrecer un método práctico y continuo de autoevaluaci
 ## 2. Estructura del Proyecto
 La estructura del proyecto está organizada de la siguiente manera:
 
-/fast-openai-tutorial/
-│
-├── /backend/             # Contiene la lógica principal del chatbot
+fast-openai-tutorial/
+├── backend/              # Contiene la lógica principal del chatbot
 │   ├── __init__.py       # Inicialización del módulo
 │   └── main.py           # FastAPI, integración con OpenAI, y despliegue en Modal
 │
@@ -19,4 +18,5 @@ La estructura del proyecto está organizada de la siguiente manera:
 ├── README.md             # Documentación principal del proyecto
 ├── requirements.txt      # Dependencias del proyecto
 ├── st_app.py             # Aplicación Streamlit para la interfaz de usuario
-└── / .venv/              # Entorno virtual (no se incluye en el control de versiones)
+└── .venv/                # Entorno virtual (no se incluye en el control de versiones)
+
