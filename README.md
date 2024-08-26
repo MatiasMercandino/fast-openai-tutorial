@@ -29,11 +29,11 @@ Para configurar el proyecto localmente, sigue estos pasos:
    ```bash
    python -m venv .venv
 
-2. **afad**
+2. **Activar entorno virtual**
    ```bash
    .venv\Scripts\activate
    
-3. **raerae**
+3. **Instalar dependencias**
    ```bash
    pip install -r requirements.txt
 
