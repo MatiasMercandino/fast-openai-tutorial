@@ -59,7 +59,7 @@ Para configurar el proyecto localmente, sigue estos pasos:
 
 1. **Para ejecutar el deploy en Modal, utiliza el siguiente comando:**
    ```bash
-   modal deploy backend/main2.py::app
+   modal deploy backend/main.py::app
 2. **Para iniciar la interfaz de Streamlit, utiliza:**
     ```bash
     streamlit run st_app.py
