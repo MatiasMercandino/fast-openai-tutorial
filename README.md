@@ -40,8 +40,8 @@ Para configurar el proyecto localmente, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tuusuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/MatiasMercandino/fast-openai-tutorial.git
+   cd fast-openai-tutorial
 
 2. **Crear un nuevo entorno virtual:**
    ```bash
