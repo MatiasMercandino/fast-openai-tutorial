@@ -6,12 +6,12 @@ import requests
 endpoint = "https://matiasmercandino--fastapi-openai-app-fastapi-app.modal.run"
 
 # Establecer el título de la aplicación Streamlit
-st.title("🎓 Evaluación Interactiva para Data Science")
+st.title("🎓 DataSensei")
 
 # Introducción amigable
 st.write(
     """
-    ¡Bienvenido a la **Evaluación Interactiva para Data Science**! 🌟 
+    ¡Bienvenidos a **DataSensei**! 🌟 
     Aquí podrás poner a prueba tus conocimientos en las asignaturas que has cursado durante tu magíster.
     Selecciona una asignatura, el nivel, y el número de preguntas que deseas responder. 
     ¡Vamos a aprender juntos! 🚀
