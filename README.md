@@ -11,6 +11,19 @@ Toda la aplicación está contenedorizada para su implementación mediante la pl
 
 Este proyecto de demostración sirve como ejemplo práctico de creación e implementación de un producto de datos como parte del proyecto final del programa. Ilustra la aplicación de los conceptos y tecnologías aprendidos a lo largo del curso en un escenario del mundo real.
 
+## Estructura del Proyecto   
+   ```plaintext
+   /fast-openai-tutorial/
+   ├── backend/              # Contiene la lógica principal del chatbot
+   │   ├── __init__.py       # Inicialización del módulo
+   │   └── main.py           # FastAPI, integración con OpenAI y despliegue en Modal
+   │
+   ├── .env                  # Variables de entorno (clave de OpenAI)
+   ├── .gitignore            # Archivos a excluir del control de versiones
+   ├── README.md             # Documentación principal del proyecto
+   ├── requirements.txt      # Dependencias del proyecto
+   └── st_app.py             # Aplicación Streamlit para la interfaz de usuario
+  ```
 ## Empezando
 Antes de comenzar a ejecutar este proyecto, hay algunos requisitos previos que deberá tener en cuenta:
 
@@ -25,15 +38,20 @@ Recuerda siempre revisar la documentación de OpenAI, Modal y Streamlit en caso 
 ## Instalación
 Para configurar el proyecto localmente, sigue estos pasos:
 
-1. **Crear un nuevo entorno virtual:**
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/tuusuario/tu-repositorio.git
+   cd tu-repositorio
+
+2. **Crear un nuevo entorno virtual:**
    ```bash
    python -m venv .venv
 
-2. **Activar entorno virtual**
+3. **Activar entorno virtual**
    ```bash
    .venv\Scripts\activate
    
-3. **Instalar dependencias**
+4. **Instalar dependencias**
    ```bash
    pip install -r requirements.txt
 
@@ -45,3 +63,5 @@ Para configurar el proyecto localmente, sigue estos pasos:
 2. **Para iniciar la interfaz de Streamlit, utiliza:**
     ```bash
     streamlit run st_app.py
+
+
