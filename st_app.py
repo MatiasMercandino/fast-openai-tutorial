@@ -2,6 +2,12 @@ import streamlit as st
 import json
 import requests
 
+# Cargar la imagen
+image = Image.open("datasensei.jpg")
+
+# Mostrar la imagen ajustada al ancho de la columna
+st.image(image, caption="DataSensei - Tu guía en el aprendizaje", use_column_width=True)
+
 # Definir el endpoint de la aplicación FastAPI
 endpoint = "https://matiasmercandino--fastapi-openai-app-fastapi-app.modal.run"
 
